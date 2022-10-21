@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Favicons -->
+    <!-- Favicons -->
+	<link href="images/favicon.png" rel="icon">
+	<link href="images/favicon.png" rel="apple-touch-icon">
+    <script src="https://kit.fontawesome.com/d5d5de0dee.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="Loading Image" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <!-- <li><a href="#services">Services</a></li> -->
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I am <span>Lovish</span><br> Prabhakar</h1>
+            </div>
+        </div>
+    </div>
+    <!-- End Header -->
+
+    <!-- About -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="Loading Image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p><br>I am a Tech enthusiast looking for some fun opportunities. Being a computer enthusiast carved the way for my entry into a Bachelor degree in Technology with Computer Science as my major. Being a part of program exposes me to new fields and possibilities in technology on the daily basis.<br>I am currently working on Front-end Development and learning Android Development simultaneously.<br></p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Design</span><br>Developing responsive websites/web apps</li>
+                            <li><span>Graphic Design</span><br>Designing graphics and posters for organizations</li>
+                            <li><span>Android App Deveopment</span><br>Building Android Apps</li>
+                            <li><span>Programming</span><br>in C++, Java and Python</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022-Current</span><br>Technical Lead at GeeksforGeeks GNDU Chapter</li>
+                            <li><span>2022-Current</span><br>Beta Microsoft Learn Student Ambassador</li>
+                            <li><span>2021-2022</span><br>Ninja Entrepreneur at Coding Ninjas</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Currently Pursuing (2020-2024)</span><br>B.Tech (CSE) <br>from Guru Nanak Dev University, Amritsar</li>
+                            <li><span>2020</span><br>Senior Secondary Education (XII) <br>from Khalsa College Public School, Amritsar</li>
+                            <li><span>2018</span><br>Secondary Education (X) <br>from Khalsa College Public School, Amritsar</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End About -->
+
+    <!-- Services -->
+
+    <!-- <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+               <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur necessitatibus dolor sapiente eveniet mollitia atque soluta enim facere dolorum quibusdam.</p>
+                <a href="#">Learn More</a>
+               </div> 
+               <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Graphic Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur necessitatibus dolor sapiente eveniet mollitia atque soluta enim facere dolorum quibusdam.</p>
+                <a href="#">Learn More</a>
+               </div>
+               <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Android App Development</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur necessitatibus dolor sapiente eveniet mollitia atque soluta enim facere dolorum quibusdam.</p>
+                <a href="#">Learn More</a>
+               </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- End Services -->
+
+    <!-- Portfolio -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="Loading Image">
+                    <div class="layer">
+                        <h3>CSimplify</h3>
+                        <p>A website that makes life easy for students, especially CSE students by making some daily-life used web apps available at one place.</p>
+                        <a href="https://lovishprabhakar.github.io/C-Simplify/Code/index.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="Loading Image">
+                    <div class="layer">
+                        <h3>Vaccination Centre Locator</h3>
+                        <p>A python project that allows users to find nearby vaccination centres.</p>
+                        <a href="https://github.com/lovishprabhakar/vaccination-centre-locator" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="Loading Image">
+                    <div class="layer">
+                        <h3>Motivator</h3>
+                        <p>A python project that motivates you with the help of google voice API and zenquotes.</p>
+                        <a href="https://github.com/lovishprabhakar/Motivator" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/lovishprabhakar?tab=repositories" target="_blank" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- End Portfolio -->
+
+    <!-- Contact -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> lovishprabhakar@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> (+91) 798-6486-159</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/lovish.prabhakar.7" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/lovishprabhakar/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/lovish-prabhakar-558855147/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/LovishP007" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://github.com/lovishprabhakar" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email Address" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Send Message</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Lovish Prabhakar.<br> Made with <i class="fa-solid fa-heart"></i> by Lovish Prabhakar.</p>
+        </div>
+    </div>
+    
+    <!-- JS -->
+    
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyz77JZxZx8yQM30dF8_jISaXoc2S3hdQ3c5bRXOpx-lcV4isqHq9rmW2og-nLIl4iIKw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {msg.innerHTML = "Message sent successfully!"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+    })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+  <!-- End JS -->
+
+</body>
+</html>
