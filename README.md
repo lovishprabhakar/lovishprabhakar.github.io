@@ -1,3 +1,3 @@
 # My Portfolio Website
 
-### Visit my [Portfolio Website](https://lovishprabhakar.github.io/) :octocat:
+### Visit my [Portfolio Website](https://lovishprabhakar.is-a.dev/) :octocat:
